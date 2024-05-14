@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars API</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="text-center pt-5">
+            <a href="https://swapi.co/">
+                <!-- You can add header content here if needed -->
+            </a>
+        </header>
+        <div class="buttons animated fadeInUp">
+            <button class="button" id="filmsBtn">
+                <i class="fas fa-film" aria-hidden="true"></i>
+                <span>Films</span>
+            </button>
+            <button class="button" id="starshipsBtn">
+                <i class="fas fa-space-shuttle" aria-hidden="true"></i>
+                <span>Starships</span>
+            </button>
+            <button class="button" id="planetsBtn">
+                <i class="fas fa-globe" aria-hidden="true"></i>
+                <span>Planets</span>
+            </button>
+            <button class="button" id="peopleBtn">
+                <i class="fas fa-users" aria-hidden="true"></i>
+                <span>People</span>
+            </button>
+        </div>
+        <div id="dataContainer" class="data-container animated fadeIn"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
